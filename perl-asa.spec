@@ -1,9 +1,9 @@
 %define upstream_name    asa
-%define upstream_version 0.02
+%define upstream_version 1.03
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Lets your class/object say it works like something else
 License:    GPL+ or Artistic
