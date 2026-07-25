@@ -1,15 +1,15 @@
 %define upstream_name    asa
-%define upstream_version 1.03
+%define upstream_version 1.04
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Lets your class/object say it works like something else
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/A/AD/ADAMK/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/karenetheridge/asa
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/asa-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
